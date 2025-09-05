@@ -1,0 +1,832 @@
+
+2025-08-27 03:53:49,772 - __main__ - INFO - <module>:352 - ✅ Configuration loaded from centralized system
+2025-08-27 03:53:49,772 - __main__ - INFO - <module>:353 - 📊 Services enabled: 4
+2025-08-27 03:53:49,773 - __main__ - INFO - <module>:355 - 👥 Admins configured: 1
+2025-08-27 03:53:49,774 - src.database_protection - INFO - _initialize_protection:89 - 🛡️ Initializing Database Protection System...
+2025-08-27 03:53:49,777 - src.database_protection - INFO - _automated_backup:283 - 🔄 Starting automated backup service...
+2025-08-27 03:53:49,778 - src.database_protection - INFO - _start_backup_service:338 - 🚀 Automated backup service started (interval: 72h)
+2025-08-27 03:53:49,778 - src.database_protection - INFO - _initialize_protection:112 - ✅ Database Protection System initialized successfully
+2025-08-27 03:53:49,778 - src.protected_database - INFO - __init__:49 - Database protection service initialized successfully
+2025-08-27 03:53:49,778 - src.protected_database - INFO - __init__:57 - Protected database initialized: data/ring4_database.json
+2025-08-27 03:53:49,778 - __main__ - INFO - <module>:496 - ✅ Protected Database system initialized with automated 3-day backups
+2025-08-27 03:53:49,778 - src.wallet_system - INFO - __init__:37 - 🏦 Wallet system initialized
+2025-08-27 03:53:49,778 - __main__ - INFO - <module>:512 - ✅ Wallet system initialized successfully
+2025-08-27 03:53:49,778 - __main__ - INFO - <module>:524 - ✅ Wallet-based system initialized
+2025-08-27 03:53:49,778 - __main__ - INFO - <module>:535 - ✅ SMSPool API client initialized successfully
+2025-08-27 03:53:49,778 - __main__ - INFO - main:7775 - 🚀 Starting Ring4 US-Only SMS Verification Bot
+2025-08-27 03:53:49,778 - __main__ - INFO - main:7776 - 🐍 Python version: 3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]
+2025-08-27 03:53:49,778 - __main__ - INFO - main:7777 - 📁 Working directory: /Users/raad/Desktop/Folder/telegram sms bot/bot_2/SMS(project-root)
+2025-08-27 03:53:49,779 - __main__ - INFO - check_and_create_pidfile:7727 - ✅ Created PID file: logs/ring4_bot.pid (PID: 34890)
+2025-08-27 03:53:49,779 - __main__ - INFO - validate_environment:7769 - ✅ Environment validation passed
+2025-08-27 03:53:49,857 - __main__ - INFO - main:7888 - ✅ Database admin commands registered
+2025-08-27 03:53:49,857 - __main__ - INFO - main:7903 - ✅ Application setup complete
+2025-08-27 03:53:49,857 - __main__ - INFO - main:7904 - 🤖 Starting bot polling...
+2025-08-27 03:53:49,857 - asyncio - DEBUG - __init__:64 - Using selector: KqueueSelector
+2025-08-27 03:53:49,861 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-27 03:53:50,210 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x10741aba0>
+2025-08-27 03:53:50,210 - httpcore.connection - DEBUG - atrace:87 - start_tls.started ssl_context=<ssl.SSLContext object at 0x1073e90a0> server_hostname='api.telegram.org' timeout=5.0
+2025-08-27 03:53:50,407 - httpcore.connection - DEBUG - atrace:87 - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x10731bed0>
+2025-08-27 03:53:50,408 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:50,409 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:50,409 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:50,409 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:50,409 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:50,599 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:50 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'251'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:50,602 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:50,602 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:50,602 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:50,603 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:50,605 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:50,606 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:50,606 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:50,607 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:50,607 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:50,956 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:50 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:50,957 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:50,957 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:50,957 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:50,957 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:50,958 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:50,958 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:50,958 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:50,958 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:50,958 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:51,309 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:51 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:51,311 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:51,311 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:51,311 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:51,311 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:51,312 - __main__ - INFO - setup_bot_menu:1106 - ✅ Enhanced persistent menu system configured successfully
+2025-08-27 03:53:51,312 - __main__ - INFO - setup_bot_menu:1107 - 📋 Commands available in menu: 11
+2025-08-27 03:53:51,312 - __main__ - INFO - post_init:7852 - 🎯 Bot menu system initialized
+2025-08-27 03:53:51,313 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:51,314 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:51,314 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:51,314 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:51,314 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:51,503 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:51 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'68'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:51,504 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:51,505 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:51,505 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:51,505 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:51,507 - apscheduler.scheduler - INFO - start:214 - Scheduler started
+2025-08-27 03:53:51,507 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-27 03:53:51,508 - apscheduler.scheduler - DEBUG - _process_jobs:1151 - Looking for jobs to run
+2025-08-27 03:53:51,508 - apscheduler.scheduler - DEBUG - _process_jobs:1252 - No jobs; waiting until a job is added
+2025-08-27 03:53:51,699 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x107498190>
+2025-08-27 03:53:51,699 - httpcore.connection - DEBUG - atrace:87 - start_tls.started ssl_context=<ssl.SSLContext object at 0x1073e9130> server_hostname='api.telegram.org' timeout=5.0
+2025-08-27 03:53:51,890 - httpcore.connection - DEBUG - atrace:87 - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x10742ac40>
+2025-08-27 03:53:51,891 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:51,892 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:51,892 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:51,892 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:51,892 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:52,079 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:52 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'354'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:52,080 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:52,081 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:52,081 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:52,081 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:52,088 - __main__ - DEBUG - setup_user_specific_menu:1138 - 📋 Enhanced menu setup for user 7396254803 (9 commands)
+2025-08-27 03:53:52,091 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:52,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:52,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:52,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:52,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:52,092 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:52,093 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:52,093 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:52,093 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:52,093 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:52,470 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:52 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1612'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:52,471 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:52,471 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:52,471 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:52,472 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:52,473 - __main__ - INFO - start_command:1854 - 👋 Start command from user 7396254803 (@Raada0x) - Balance: $12.35
+2025-08-27 03:53:56,507 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:56 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1860'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:56,508 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:56,509 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:56,509 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:56,509 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:56,513 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:56,514 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:56,514 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:56,515 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:56,515 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:56,515 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:56,516 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:56,516 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:56,516 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:56,516 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:56,913 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:56 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:56,914 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:56,914 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:56,915 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:56,915 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:56,916 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:56,917 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:56,917 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:56,918 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:56,918 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:57,281 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:57 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'296'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:57,282 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:57,283 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:57,283 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:57,283 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:57,284 - src.smspool_api - INFO - get_available_services_for_purchase:679 - 🔍 Checking service availability for purchase menu in United States...
+2025-08-27 03:53:57,284 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 1)
+2025-08-27 03:53:57,807 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:53:57,807 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.08', 'custom_price': 1}
+2025-08-27 03:53:57,808 - src.smspool_api - INFO - get_available_services_for_purchase:712 - ✅ Ring4 Premium Service in United States: $0.08 → $0.1 (profit: $0.07)
+2025-08-27 03:53:57,808 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 22, Country: 1)
+2025-08-27 03:53:58,127 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:53:58,127 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.12', 'high_price': '0.12', 'success_rate': 100}
+2025-08-27 03:53:58,128 - src.smspool_api - INFO - get_available_services_for_purchase:712 - ✅ Telegram Pro in United States: $0.12 → $0.1 (profit: $0.03)
+2025-08-27 03:53:58,128 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 395, Country: 1)
+2025-08-27 03:53:58,654 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:53:58,655 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.48', 'high_price': '0.85', 'success_rate': 67}
+2025-08-27 03:53:58,656 - src.smspool_api - INFO - get_available_services_for_purchase:712 - ✅ Google Business in United States: $0.48 → $0.1 (profit: $0.02)
+2025-08-27 03:53:58,656 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1012, Country: 1)
+2025-08-27 03:53:59,012 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:53:59,013 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.90', 'custom_price': 1}
+2025-08-27 03:53:59,014 - src.smspool_api - INFO - get_available_services_for_purchase:712 - ✅ WhatsApp Plus in United States: $0.9 → $0.1 (profit: $0.05)
+2025-08-27 03:53:59,016 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:59,017 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:53:59,017 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:53:59,017 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:53:59,017 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:53:59,383 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:53:59 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'867'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:53:59,384 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:53:59,385 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:53:59,385 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:53:59,386 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:53:59,387 - __main__ - INFO - handle_browse_services:4026 - ✅ Displayed 4 available services to user 7396254803
+2025-08-27 03:54:00,770 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:00 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1123'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:00,771 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:00,771 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:00,772 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:00,772 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:00,775 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:00,779 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:00,781 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:00,781 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:00,782 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:01,138 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:01 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:01,139 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:01,139 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:01,140 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:01,140 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:01,142 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:01,142 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:01,142 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:01,143 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:01,143 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:01,507 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:01 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'411'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:01,508 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:01,509 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:01,509 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:01,509 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:01,510 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 1)
+2025-08-27 03:54:01,789 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:01,789 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.08', 'custom_price': 1}
+2025-08-27 03:54:01,790 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 2)
+2025-08-27 03:54:02,080 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:02,081 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:02,082 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 3)
+2025-08-27 03:54:02,442 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:02,442 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:02,443 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 7)
+2025-08-27 03:54:02,705 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:02,705 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:02,705 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 9)
+2025-08-27 03:54:02,990 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:02,991 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:02,991 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 16)
+2025-08-27 03:54:03,264 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:03,265 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:03,265 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 22)
+2025-08-27 03:54:03,569 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:03,570 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:03,570 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 32)
+2025-08-27 03:54:03,876 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:03,876 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:03,877 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 33)
+2025-08-27 03:54:04,183 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:04,183 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:04,184 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 38)
+2025-08-27 03:54:04,490 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:04,491 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: 0
+2025-08-27 03:54:04,494 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:04,495 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:04,495 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:04,495 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:04,495 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:05,105 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:05 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1028'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:05,106 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:05,106 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:05,106 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:05,107 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:05,108 - __main__ - INFO - load_countries_for_service:4201 - ✅ Loaded 1 countries for service Ring4 Premium Service
+2025-08-27 03:54:06,427 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1280'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:06,429 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:06,429 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:06,429 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:06,429 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:06,432 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:06,433 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:06,433 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:06,434 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:06,435 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:06,435 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:06,437 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:06,437 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:06,438 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:06,438 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:06,788 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:06 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:06,789 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:06,789 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:06,789 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:06,789 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:06,791 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:06,791 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:06,791 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:06,792 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:06,792 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:07,161 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:07 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'672'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:07,163 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:07,163 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:07,163 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:07,163 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:07,164 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 1)
+2025-08-27 03:54:07,462 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:07,463 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.08', 'custom_price': 1}
+2025-08-27 03:54:07,466 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:07,466 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:07,467 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:07,467 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:07,467 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:07,832 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:07 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1183'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:07,833 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:07,833 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:07,833 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:07,834 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:09,304 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:09 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1444'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:09,304 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:09,305 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:09,305 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:09,306 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:09,309 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:09,310 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:09,311 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:09,311 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:09,311 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:09,311 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:09,312 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:09,312 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:09,312 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:09,312 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:09,665 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:09 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:09,666 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:09,667 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:09,667 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:09,668 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:09,670 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:09,670 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:09,670 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:09,671 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:09,671 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:10,326 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'740'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:10,327 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:10,327 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:10,328 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:10,328 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:10,329 - PURCHASE - INFO - process_wallet_service_purchase_with_country:5129 - 🚀 Starting wallet purchase for user 7396254803: Ring4 Premium Service in United States ($0.10)
+2025-08-27 03:54:10,338 - src.wallet_system - INFO - deduct_balance:104 - 💰 Deducted $0.10 from user 7396254803 wallet. New balance: $12.25
+2025-08-27 03:54:10,338 - PERFORMANCE - INFO - process_wallet_service_purchase_with_country:5157 - ✅ Wallet deducted: $0.10 for user 7396254803
+2025-08-27 03:54:10,339 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:10,339 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:10,339 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:10,340 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:10,340 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:10,702 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:10 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'725'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:10,703 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:10,703 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:10,704 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:10,704 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:10,705 - src.smspool_api - INFO - purchase_specific_service:777 - 🛒 Purchasing Ring4 Premium Service (ID: 1574) in United States
+2025-08-27 03:54:10,705 - src.smspool_api - INFO - _purchase_sms_service:350 - 🔄 Attempting Ring4 Premium Service purchase (Service: 1574, Country: United States)
+2025-08-27 03:54:11,863 - src.smspool_api - INFO - _purchase_sms_service:358 - 📡 Ring4 Premium Service API response status: 200
+2025-08-27 03:54:11,864 - src.smspool_api - INFO - _purchase_sms_service:364 - 📊 Ring4 Premium Service response: {'success': 1, 'number': 18212036321, 'cc': '1', 'phonenumber': '8212036321', 'order_id': 'IQNZDXWC', 'orderid': 'IQNZDXWC', 'country': 'United States', 'service': 'Ring4', 'pool': 7, 'expires_in': 600, 'expiration': 1756245851, 'message': 'You have successfully  ordered a Ring4 number from pool: Foxtrot', 'cost': '0.08', 'cost_in_cents': 8, 'current_balance': '19.09'}
+2025-08-27 03:54:11,864 - src.smspool_api - INFO - _purchase_sms_service:398 - ✅ Ring4 Premium Service number purchased: 18212036321 (Order: IQNZDXWC) for United States
+2025-08-27 03:54:11,865 - src.smspool_api - INFO - purchase_specific_service:800 - ✅ Ring4 Premium Service purchased in United States: API=$0.08, Selling=$0.1, Profit=$0.07
+2025-08-27 03:54:11,869 - src.database_protection - WARNING - _validate_database_integrity:168 - ❌ Database checksum mismatch: expected cc1d26fc5819f864df7eb87e92ef0c4ddcac49cd52cb9310cb9fd371df72dc9a, got 4e0296c0a931c66173186ba8b230015f2d7ebc0f413bcea1477ef39595fe55bb
+2025-08-27 03:54:11,869 - src.database_protection - INFO - _attempt_recovery:355 - 🔧 Attempting database recovery...
+2025-08-27 03:54:11,870 - src.database_protection - ERROR - _attempt_recovery:388 - ❌ All recovery attempts failed
+2025-08-27 03:54:11,870 - src.protected_database - ERROR - _read_database:91 - Database corrupted and recovery failed
+2025-08-27 03:54:11,874 - src.database_protection - DEBUG - _write_database_atomic:210 - ✅ Database written atomically: data/ring4_database.json
+2025-08-27 03:54:11,874 - src.protected_database - INFO - create_order:206 - Order created: IQNZDXWC
+2025-08-27 03:54:11,876 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:11,877 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:11,877 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:11,877 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:11,877 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:12,244 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:12 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1263'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:12,245 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:12,246 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:12,246 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:12,246 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:12,247 - PERFORMANCE - INFO - process_wallet_service_purchase_with_country:5238 - ✅ Purchase completed in 1.92 seconds for Ring4 Premium Service in United States
+2025-08-27 03:54:12,247 - PERFORMANCE - INFO - process_wallet_service_purchase_with_country:5280 - 🧹 Purchase cleanup completed for Ring4 Premium Service in United States
+2025-08-27 03:54:12,247 - USER - INFO - poll_for_otp:568 - 🔄 Starting optimized OTP polling for order IQNZDXWC (user: 7396254803)
+2025-08-27 03:54:12,248 - PERFORMANCE - INFO - poll_for_otp:570 - ⏱️ OTP polling initiated with adaptive intervals
+2025-08-27 03:54:12,248 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #1 for order IQNZDXWC (interval: 2s)
+2025-08-27 03:54:12,585 - src.smspool_api - INFO - get_order_status:872 - 🔄 Mapped status 1 -> pending
+2025-08-27 03:54:12,586 - PERFORMANCE - DEBUG - poll_for_otp:603 - ⚡ API status check completed in 0.34s
+2025-08-27 03:54:12,587 - API - INFO - poll_for_otp:613 - 📊 Order IQNZDXWC status changed: None → pending
+2025-08-27 03:54:14,588 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #2 for order IQNZDXWC (interval: 2s)
+2025-08-27 03:54:14,824 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:14 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1527'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:14,825 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:14,825 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:14,826 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:14,826 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:14,829 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:14,830 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:14,830 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:14,835 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:14,836 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:14,836 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:14,836 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:14,836 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:14,837 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:14,837 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:14,884 - src.smspool_api - INFO - get_order_status:872 - 🔄 Mapped status 1 -> pending
+2025-08-27 03:54:14,884 - PERFORMANCE - DEBUG - poll_for_otp:603 - ⚡ API status check completed in 0.30s
+2025-08-27 03:54:15,208 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:15 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:15,209 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:15,209 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:15,209 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:15,209 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:15,210 - __main__ - INFO - handle_instant_refund_and_reorder:6039 - 📊 Instant refund for order IQNZDXWC: service_id=1574, service_name=Ring4 Premium Service, country_id=1
+2025-08-27 03:54:15,211 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:15,212 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:15,212 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:15,212 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:15,212 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:15,578 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:15 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'800'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:15,579 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:15,580 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:15,580 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:15,580 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:15,581 - src.smspool_api - INFO - check_service_availability:518 - 🔍 Checking service availability (Service: 1574, Country: 1)
+2025-08-27 03:54:16,574 - src.smspool_api - INFO - check_service_availability:526 - 📡 Service check API response status: 200
+2025-08-27 03:54:16,575 - src.smspool_api - INFO - check_service_availability:532 - 📊 Service check response: {'price': '0.08', 'custom_price': 1}
+2025-08-27 03:54:16,577 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:16,577 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:16,577 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:16,578 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:16,578 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:16,887 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #3 for order IQNZDXWC (interval: 2s)
+2025-08-27 03:54:16,943 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:16 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'791'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:16,944 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:16,944 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:16,944 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:16,944 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:16,946 - __main__ - INFO - handle_instant_refund_and_reorder:6093 - 🛑 Cancelled active polling for order IQNZDXWC before instant refund
+2025-08-27 03:54:16,948 - USER - INFO - poll_for_otp:963 - 🛑 OTP polling cancelled for order IQNZDXWC after 3 polls
+2025-08-27 03:54:16,948 - PERFORMANCE - INFO - poll_for_otp:1055 - 🧹 Polling cleanup completed for order IQNZDXWC
+2025-08-27 03:54:17,497 - src.smspool_api - INFO - cancel_order:982 - ✅ Order IQNZDXWC successfully cancelled via SMSPool API
+2025-08-27 03:54:17,498 - __main__ - INFO - handle_instant_refund_and_reorder:6104 - ✅ Order IQNZDXWC successfully cancelled with SMS Bot API for instant reorder
+2025-08-27 03:54:17,500 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:17,500 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:17,500 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:17,501 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:17,501 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:17,866 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:17 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'790'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:17,867 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:17,868 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:17,868 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:17,868 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:17,870 - src.smspool_api - INFO - purchase_specific_service:777 - 🛒 Purchasing Ring4 Premium Service (ID: 1574) in United States
+2025-08-27 03:54:17,870 - src.smspool_api - INFO - _purchase_sms_service:350 - 🔄 Attempting Ring4 Premium Service purchase (Service: 1574, Country: United States)
+2025-08-27 03:54:19,420 - src.smspool_api - INFO - _purchase_sms_service:358 - 📡 Ring4 Premium Service API response status: 200
+2025-08-27 03:54:19,420 - src.smspool_api - INFO - _purchase_sms_service:364 - 📊 Ring4 Premium Service response: {'success': 1, 'number': 16815560054, 'cc': '1', 'phonenumber': '6815560054', 'order_id': '5FRAZN6C', 'orderid': '5FRAZN6C', 'country': 'United States', 'service': 'Ring4', 'pool': 7, 'expires_in': 600, 'expiration': 1756245859, 'message': 'You have successfully  ordered a Ring4 number from pool: Foxtrot', 'cost': '0.08', 'cost_in_cents': 8, 'current_balance': '19.09'}
+2025-08-27 03:54:19,420 - src.smspool_api - INFO - _purchase_sms_service:398 - ✅ Ring4 Premium Service number purchased: 16815560054 (Order: 5FRAZN6C) for United States
+2025-08-27 03:54:19,420 - src.smspool_api - INFO - purchase_specific_service:800 - ✅ Ring4 Premium Service purchased in United States: API=$0.08, Selling=$0.1, Profit=$0.07
+2025-08-27 03:54:19,422 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:19,423 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:19,423 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:19,423 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:19,423 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:19,791 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:19 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'643'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:19,792 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:19,792 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:19,792 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:19,792 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:19,794 - __main__ - INFO - handle_instant_refund_and_reorder:6176 - ✅ Order IQNZDXWC refunded by SMS Bot API - no wallet action needed
+2025-08-27 03:54:19,796 - src.database_protection - DEBUG - _write_database_atomic:210 - ✅ Database written atomically: data/ring4_database.json
+2025-08-27 03:54:19,796 - src.protected_database - INFO - update_order_status:234 - Order IQNZDXWC status updated: cancelled
+2025-08-27 03:54:19,799 - src.database_protection - DEBUG - _write_database_atomic:210 - ✅ Database written atomically: data/ring4_database.json
+2025-08-27 03:54:19,800 - src.protected_database - INFO - create_order:206 - Order created: 5FRAZN6C
+2025-08-27 03:54:19,808 - src.wallet_system - INFO - reserve_balance:399 - 🔒 Reserved $0.10 for user 7396254803 (order: 5FRAZN6C). Balance remains: $12.25
+2025-08-27 03:54:19,809 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:19,810 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:19,810 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:19,810 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:19,810 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:20,179 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:20 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1838'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:20,180 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:20,180 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:20,180 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:20,181 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:20,181 - __main__ - INFO - handle_instant_refund_and_reorder:6326 - ✅ Instant number replacement completed for user 7396254803: Order IQNZDXWC -> Order 5FRAZN6C (Service: Ring4 Premium Service, Country: United States) - API refund: confirmed
+2025-08-27 03:54:20,182 - USER - INFO - poll_for_otp:568 - 🔄 Starting optimized OTP polling for order 5FRAZN6C (user: 7396254803)
+2025-08-27 03:54:20,182 - PERFORMANCE - INFO - poll_for_otp:570 - ⏱️ OTP polling initiated with adaptive intervals
+2025-08-27 03:54:20,182 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #1 for order 5FRAZN6C (interval: 2s)
+2025-08-27 03:54:20,438 - src.smspool_api - INFO - get_order_status:872 - 🔄 Mapped status 1 -> pending
+2025-08-27 03:54:20,439 - PERFORMANCE - DEBUG - poll_for_otp:603 - ⚡ API status check completed in 0.26s
+2025-08-27 03:54:20,439 - API - INFO - poll_for_otp:613 - 📊 Order 5FRAZN6C status changed: None → pending
+2025-08-27 03:54:22,000 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:21 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2086'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:22,002 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:22,002 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:22,002 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:22,002 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:22,006 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:22,006 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:22,007 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:22,007 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:22,008 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:22,008 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:22,009 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:22,009 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:22,009 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:22,009 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:22,364 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:22 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:22,365 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:22,366 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:22,366 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:22,366 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:22,378 - src.wallet_system - INFO - add_balance:149 - 💰 Added $0.10 to user 7396254803 wallet. New balance: $12.35
+2025-08-27 03:54:22,380 - src.database_protection - DEBUG - _write_database_atomic:210 - ✅ Database written atomically: data/ring4_database.json
+2025-08-27 03:54:22,380 - src.protected_database - INFO - update_order_status:234 - Order 5FRAZN6C status updated: refunded
+2025-08-27 03:54:22,440 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #2 for order 5FRAZN6C (interval: 2s)
+2025-08-27 03:54:22,719 - src.smspool_api - INFO - get_order_status:872 - 🔄 Mapped status 1 -> pending
+2025-08-27 03:54:22,719 - PERFORMANCE - DEBUG - poll_for_otp:603 - ⚡ API status check completed in 0.28s
+2025-08-27 03:54:22,734 - src.smspool_api - INFO - cancel_order:982 - ✅ Order 5FRAZN6C successfully cancelled via SMSPool API
+2025-08-27 03:54:22,734 - __main__ - INFO - handle_refund_request:5920 - ✅ User refund order 5FRAZN6C cancelled with SMS Bot
+2025-08-27 03:54:22,736 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:22,736 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:22,736 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:22,736 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:22,736 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:23,108 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:23 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1186'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:23,110 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:23,110 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:23,110 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:23,111 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:23,112 - __main__ - INFO - handle_refund_request:5944 - ✅ Auto-approved refund for order 5FRAZN6C, user 7396254803, amount $0.10
+2025-08-27 03:54:24,722 - API - DEBUG - poll_for_otp:592 - 🔍 Poll #3 for order 5FRAZN6C (interval: 2s)
+2025-08-27 03:54:25,013 - src.smspool_api - INFO - get_order_status:872 - 🔄 Mapped status 6 -> cancelled
+2025-08-27 03:54:25,014 - PERFORMANCE - DEBUG - poll_for_otp:603 - ⚡ API status check completed in 0.29s
+2025-08-27 03:54:25,015 - API - INFO - poll_for_otp:613 - 📊 Order 5FRAZN6C status changed: pending → cancelled
+2025-08-27 03:54:25,015 - API - WARNING - poll_for_otp:757 - 🛑 Order 5FRAZN6C reached terminal status: cancelled - stopping polling
+2025-08-27 03:54:25,019 - src.database_protection - DEBUG - _write_database_atomic:210 - ✅ Database written atomically: data/ring4_database.json
+2025-08-27 03:54:25,019 - src.protected_database - INFO - update_order_status:234 - Order 5FRAZN6C status updated: cancelled
+2025-08-27 03:54:25,021 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:25,022 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:25,022 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:25,022 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:25,022 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:25,391 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:25 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1182'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:25,393 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:25,393 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:25,394 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:25,394 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:25,395 - PERFORMANCE - INFO - poll_for_otp:1055 - 🧹 Polling cleanup completed for order 5FRAZN6C
+2025-08-27 03:54:29,578 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:29 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1428'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:29,580 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:29,580 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:29,581 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:29,581 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:29,585 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:29,586 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:29,586 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:29,587 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:29,587 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:29,588 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:29,588 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:29,588 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:29,589 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:29,589 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:29,958 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:29 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2270'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:29,959 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:29,959 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:29,959 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:29,960 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:29,962 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:29,962 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:29,962 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:29,963 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:29,963 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:30,317 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:30 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:30,317 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:30,317 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:30,317 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:30,318 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:33,064 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:32 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'2515'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:33,065 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,066 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:33,066 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:33,067 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:33,070 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,071 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:33,071 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,072 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,072 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:33,072 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,072 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:33,073 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,073 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:33,073 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,424 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:33 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:33,425 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,426 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:33,426 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:33,426 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:33,430 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,432 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:33,432 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,433 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:33,433 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:33,802 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:33 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1595'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:33,803 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:33,804 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:33,804 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:33,805 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:33,806 - __main__ - INFO - balance_command:2419 - 💰 Balance checked by user 7396254803: $12.35
+2025-08-27 03:54:35,065 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:35 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1841'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:35,066 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,067 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:35,067 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:35,067 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:35,070 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,071 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:35,071 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,071 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,073 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:35,073 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,074 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:35,074 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,074 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:35,075 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,424 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:35 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:35,425 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,426 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:35,427 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:35,427 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:35,429 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,430 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:35,430 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,431 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:35,431 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:35,795 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:35 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'926'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:35,797 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:35,797 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:35,797 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:35,798 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:38,078 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:37 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1180'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:38,079 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,080 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:38,080 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:38,081 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:38,084 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,084 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:38,085 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,085 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,085 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:38,086 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,087 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:38,087 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,087 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:38,087 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,440 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:38 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:38,441 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,442 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:38,442 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:38,442 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:38,444 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,445 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:38,445 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,445 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:38,445 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:38,818 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:38 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1324'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:38,819 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:38,819 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:38,820 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:38,820 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:42,282 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:42 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1577'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:42,284 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:42,284 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:42,284 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:42,285 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:42,288 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:42,289 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:42,289 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:42,289 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:42,290 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:42,290 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:42,290 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:42,290 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:42,291 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:42,291 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:42,684 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:42 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:42,685 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:42,685 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:42,685 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:42,685 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:42,689 - src.wallet_system - INFO - create_deposit_request:241 - 🏦 Deposit request created for user 7396254803: DEP_7396254803_1756245282 ($10.00)
+2025-08-27 03:54:42,689 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:42,690 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:42,690 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:42,690 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:42,690 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:43,060 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:43 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1096'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:43,061 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:43,062 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:43,062 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:43,062 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:43,063 - __main__ - INFO - handle_deposit_wallet_amount:3019 - 💳 Wallet deposit request created for user 7396254803: $10.0
+2025-08-27 03:54:44,360 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:44 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1367'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:44,362 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:44,362 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:44,362 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:44,363 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:44,366 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:44,366 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:44,366 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:44,366 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:44,367 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:44,367 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:44,367 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:44,368 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:44,368 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:44,368 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:44,718 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:44 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'25'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:44,719 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:44,720 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:44,720 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:44,720 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:44,724 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:44,726 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:44,726 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:44,730 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:44,731 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:45,103 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:45 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1069'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:45,104 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:45,105 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:45,105 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:45,105 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:45,107 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:45,108 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:54:45,108 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:54:45,108 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:54:45,108 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:54:45,472 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:54:45 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'733'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:54:45,473 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:54:45,474 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:54:45,474 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:54:45,474 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:54:45,475 - __main__ - INFO - handle_deposit_sent:3635 - 💰 Deposit claim submitted by user 7396254803: DEP_7396254803_1756245282
+2025-08-27 03:55:04,603 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:04 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'23'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:04,606 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:04,606 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:04,606 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:04,606 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:04,608 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:04,609 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:04,609 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:04,610 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:04,610 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:24,876 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'23'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:24,878 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:24,878 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:24,879 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:24,879 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:24,880 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:24,881 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:24,881 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:24,881 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:24,882 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:25,592 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:25 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'354'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:25,592 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:25,593 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:25,593 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:25,593 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:25,596 - httpcore.connection - DEBUG - atrace:87 - close.started
+2025-08-27 03:55:25,597 - httpcore.connection - DEBUG - atrace:87 - close.complete
+2025-08-27 03:55:25,599 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-27 03:55:25,600 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:25,600 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:25,601 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:25,601 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:25,601 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:25,951 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x10742bce0>
+2025-08-27 03:55:25,951 - httpcore.connection - DEBUG - atrace:87 - start_tls.started ssl_context=<ssl.SSLContext object at 0x1073e90a0> server_hostname='api.telegram.org' timeout=5.0
+2025-08-27 03:55:26,143 - httpcore.connection - DEBUG - atrace:87 - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x107670cb0>
+2025-08-27 03:55:26,143 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:26,144 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:26,144 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:26,145 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:26,145 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:26,510 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:26 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'288'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:26,511 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:26,511 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:26,512 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:26,512 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:34,238 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:34 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'355'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:34,240 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:34,240 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:34,241 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:34,241 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:34,243 - httpcore.connection - DEBUG - atrace:87 - close.started
+2025-08-27 03:55:34,243 - httpcore.connection - DEBUG - atrace:87 - close.complete
+2025-08-27 03:55:34,246 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-27 03:55:34,247 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:34,250 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:34,250 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:34,251 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:34,251 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:34,441 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x10745d7b0>
+2025-08-27 03:55:34,441 - httpcore.connection - DEBUG - atrace:87 - start_tls.started ssl_context=<ssl.SSLContext object at 0x1073e90a0> server_hostname='api.telegram.org' timeout=5.0
+2025-08-27 03:55:34,634 - httpcore.connection - DEBUG - atrace:87 - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x107382cf0>
+2025-08-27 03:55:34,635 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:34,636 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:34,636 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:34,637 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:34,637 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:35,005 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:34 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'288'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:35,007 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:35,007 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:35,008 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:35,008 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:50,024 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:49 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'355'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:50,026 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:50,027 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:50,027 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:50,027 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:50,032 - httpcore.connection - DEBUG - atrace:87 - close.started
+2025-08-27 03:55:50,032 - httpcore.connection - DEBUG - atrace:87 - close.complete
+2025-08-27 03:55:50,035 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.started host='api.telegram.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-08-27 03:55:50,037 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:50,038 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:50,038 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:50,038 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:50,038 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:50,223 - httpcore.connection - DEBUG - atrace:87 - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x107442a50>
+2025-08-27 03:55:50,224 - httpcore.connection - DEBUG - atrace:87 - start_tls.started ssl_context=<ssl.SSLContext object at 0x1073e90a0> server_hostname='api.telegram.org' timeout=5.0
+2025-08-27 03:55:50,418 - httpcore.connection - DEBUG - atrace:87 - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x107443150>
+2025-08-27 03:55:50,418 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:50,419 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:50,419 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:50,420 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:50,420 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:50,841 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:50 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1002'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:50,843 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:50,843 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:50,843 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:50,844 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:55,083 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:54 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'356'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:55,085 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:55,085 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:55,085 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:55,086 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:55,090 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:55,090 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:55,091 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:55,091 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:55,091 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:55,092 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:55,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:55:55,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:55:55,092 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:55:55,093 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
+2025-08-27 03:55:55,463 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:55:55 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'1572'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:55:55,464 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:55:55,464 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:55:55,464 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:55:55,465 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:55:55,466 - __main__ - INFO - balance_command:2419 - 💰 Balance checked by user 7396254803: $12.35
+2025-08-27 03:56:15,284 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx/1.18.0'), (b'Date', b'Tue, 26 Aug 2025 21:56:15 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'23'), (b'Connection', b'keep-alive'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'Access-Control-Allow-Origin', b'*'), (b'Access-Control-Allow-Methods', b'GET, POST, OPTIONS'), (b'Access-Control-Expose-Headers', b'Content-Length,Content-Type,Date,Server,Connection')])
+2025-08-27 03:56:15,287 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.started request=<Request [b'POST']>
+2025-08-27 03:56:15,288 - httpcore.http11 - DEBUG - atrace:87 - receive_response_body.complete
+2025-08-27 03:56:15,288 - httpcore.http11 - DEBUG - atrace:87 - response_closed.started
+2025-08-27 03:56:15,288 - httpcore.http11 - DEBUG - atrace:87 - response_closed.complete
+2025-08-27 03:56:15,295 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.started request=<Request [b'POST']>
+2025-08-27 03:56:15,296 - httpcore.http11 - DEBUG - atrace:87 - send_request_headers.complete
+2025-08-27 03:56:15,296 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.started request=<Request [b'POST']>
+2025-08-27 03:56:15,297 - httpcore.http11 - DEBUG - atrace:87 - send_request_body.complete
+2025-08-27 03:56:15,297 - httpcore.http11 - DEBUG - atrace:87 - receive_response_headers.started request=<Request [b'POST']>
